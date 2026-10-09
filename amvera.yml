@@ -8,6 +8,6 @@ build:
   requirementsPath: backend/requirements.txt
 
 run:
-  scriptName: backend/afqk.py
+  scriptName: backend/backend.py
   persistenceMount: /data
   containerPort: 8000
