@@ -9,6 +9,5 @@ build:
   scriptName: backend/afqk.py
 
 run:
-  persistenceMount: /data
   containerPort: 8000
   command: python backend/afqk.py
