@@ -6,8 +6,8 @@ meta:
 
 build:
   requirementsPath: backend/requirements.txt
-  scriptName: backend/afqk.py
 
 run:
+  scriptName: backend/afqk.py
+  persistenceMount: /data
   containerPort: 8000
-  command: python backend/afqk.py
